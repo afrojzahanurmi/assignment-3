@@ -77,7 +77,8 @@
   <div class="navbar-end space-x-5 lg:flex md:block sm: hidden">
     <i class="fa-solid fa-magnifying-glass "></i>
     <i class="fa-solid fa-cart-shopping"></i>
-    <a class="btn bg-[#ABEF5F] text-black text-xl">Book Consult<i class="fa-solid fa-arrow-right origin-center -rotate-45  text-white text-xl "></i></a>
+    <a class="btn bg-[#ABEF5F] text-black text-xl">Book Consult <div class="w-9 h-9 bg-black rounded-full"><i class="fa-solid fa-arrow-right origin-center -rotate-45  text-white text-2xl "></i></div></a>
+
   </div>
 </div>
         </nav>
@@ -91,7 +92,8 @@
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood,
                  sleek metal <br> accents, and large windows that flood the space with natural light.
               </p>
-              <button class="btn bg-[#ABEF5F80] mb-5 text-xl font-semibold">View Details<i class="fa-solid fa-arrow-right origin-center -rotate-45 bg-[#ABEF5F] rounded-full"></i></button>
+              <button class="btn bg-[#c1ec8f] mb-5 text-xl font-semibold rounded-2xl">View Details <div class="h-9 w-9 bg-[#ABEF5F] rounded-full">
+                <i class="fa-solid fa-arrow-right origin-center -rotate-45  text-black text-2xl"></i></div></button>
             
           </div>
         </div>
@@ -269,6 +271,7 @@
         background-image: url(assets/bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        opacity: 20;
       }
       </style>
       <button class="bg-[#ABEF5F33] rounded-xl px-7 py-4 text-xl mb-8 "><i class="fa-solid fa-arrow-right origin-center"></i>Rinterio News</button>
@@ -294,8 +297,43 @@
     </section>
   
     </main>
-    <footer>
+    <footer class="footer footer-center bg-black text-primary-content p-10">
+      <aside>
+        <svg
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          class="inline-block fill-current">
+        
+        </svg>
+        <div class="flex justify-center items-center text-white"><a class="btn btn-ghost text-4xl font-bold"><div class="bg-[#ABEF5F] rounded-full h-10 w-10">
+          <i class="fa-solid fa-arrow-right origin-center -rotate-45 text-black"></i></div>Rinterio</a></div>
+    
+        <p>When speed is limited, or when there is congestion, network packets have to wait in queues to be delivered, 
+          which increases network <br>latency and will create packet losses when queues overflow. As a result, the network Quality</p>
+          <div>
+            <ul class="lg:flex gap-28 text-xl font-medium space-y-5">
+              <li><a href="">Home</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">Blogs</a> </li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+      </aside>
+      <nav>
+       
+        <button class="btn bg-[#ABEF5F] mb-5 text-xl font-semibold rounded-2xl">Book Consult <div class="h-9 w-9 bg-black rounded-full">
+          <i class="fa-solid fa-arrow-right origin-center -rotate-45  text-white text-2xl"></i></div></button>
+            
+       
+          
+        </div>
 
+      </nav>
     </footer>
     
 </body>
